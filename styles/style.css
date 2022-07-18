@@ -96,29 +96,138 @@ body {
    width: 196px;
    height: 44px;
    border: none;
-   
+
 }
-.order-btn .order{
+
+.order-btn .order {
    font-weight: 700;
    font-size: 16px;
    line-height: 24px;
    color: #fff;
 }
-.order-btn i{
+
+.order-btn i {
    color: #fff;
 }
+
 /*-------------------------
  banner thumbnail styles
  -------------------------- */
-.banner-tumbnail{
+.banner-tumbnail {
    position: relative;
    margin-top: 50px;
 }
-.banner-tumbnail .bg-img{}
-.banner-tumbnail .bg-img img{}
-.banner-tumbnail .font-img{
+
+/* .banner-tumbnail .bg-img{}
+.banner-tumbnail .bg-img img{} */
+.banner-tumbnail .font-img {
    position: absolute;
    top: 20px;
    left: 48px;
 }
-.banner-tumbnail .font-img img{}
+
+/* .banner-tumbnail .font-img img{} */
+/*---------------------------- top company brands logo
+---------------------------- */
+.company-logo {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 64px;
+   margin-bottom: 105px;
+   background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+
+}
+
+.company-logo .logo {
+   padding: 30px 0;
+}
+
+/* .company-logo .logo img{
+    padding: 30px 0; 
+} */
+/*---------------------------
+    Popular collection styles
+----------------------------- */
+.popular-collection .collect-title {
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 70px;
+   color: #3A3A3A;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+/* ---------
+   card style 
+------------*/
+.cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+}
+
+.cards .card {
+   width: 380px;
+   height: 526px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
+   padding: 14px;
+}
+
+.cards .card .card-thumbnail {
+   margin-bottom: 16px;
+}
+
+.cards .card .card-thumbnail img {
+   width: 100%;
+}
+
+.cards .card .card-title {
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 40px;
+   color: #18191F;
+   margin-bottom: 6px;
+}
+
+.cards .card .price {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 150%;
+   color: rgba(0, 0, 0, 0.87);
+   margin-bottom: 5px;
+}
+
+.cards .card .star {
+   margin-bottom: 16px;
+}
+
+.cards .card .star .fa-star,
+.fa-star-half-stroke {
+   width: 11.07px;
+   height: 10.32px;
+   color: #FB8200;
+   padding: 8px;
+}
+
+.cards .card .star .fa-star:first-child {
+   padding-left: 0;
+}
+
+.cards .card .star .rating {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 22px;
+   color: #5E6366;
+   padding-left: 18px;
+   
+}
+
+.cards .card .card-description {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 143%;
+   color: #787885;
+}
