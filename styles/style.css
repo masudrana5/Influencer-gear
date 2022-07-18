@@ -1,0 +1,13 @@
+/* font for all body font name is Poppins link in below */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&family=Great+Vibes&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+/* common css in this style page */
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-family: 'Poppins', sans-serif;
+
+}
