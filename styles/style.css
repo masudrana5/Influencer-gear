@@ -364,7 +364,7 @@ footer {
 /* media queries for mobile */
 @media only screen and (max-width: 576px) {
    .container{
-      width: 100%;
+      width: 100vw;
    }
    .mobile-bars {
       display: block;
@@ -390,11 +390,11 @@ footer {
       grid-template-columns: repeat(1, 1fr);
       justify-items: center;
    }
+   .cards .card{
+      width: 100%;
+   }
    .feature-products{
       grid-template-columns: repeat(1, 1fr);
       justify-items: center;
-   }
-   footer{
-      width: 100%;
    }
 }
